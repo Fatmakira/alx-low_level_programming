@@ -13,9 +13,10 @@ void print_to_98(int n)
 
 	if (n > 98)
 		for (count = n; count > 98; count--)
-			printf("%d,", count);
+			_putchar(count);
 	else
 		for (count = n; n < 98; count++)
-			printf("%d,", count);
-	printf("98\n");
+			_putchar(count);
+	_putchar(98);
+	_putchar('\n');
 }
