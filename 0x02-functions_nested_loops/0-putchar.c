@@ -3,11 +3,12 @@
 /**
  * main -entry point
  *
- * Description: 'prints _putchar'
+ * Description: 'prints _putchar to stdout'
  *
  * Return Always (0) success
  *
 */
+
 int main(void)
 {
 	_putchar('_');
