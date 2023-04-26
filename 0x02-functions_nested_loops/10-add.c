@@ -12,8 +12,8 @@
 
 int add(int a, int b)
 {
-        int sum = a + b;
+	int sum = a + b;
 
-        return (sum);
-        _putchar('\n');
+	return (sum);
+	_putchar('\n');
 }
